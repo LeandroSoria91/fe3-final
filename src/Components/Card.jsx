@@ -1,7 +1,7 @@
 import { useContext, useState } from 'react'
 import { ContextGlobal } from '../Components/utils/global.context'
 import { Link } from 'react-router-dom'
-import { BsHeart, BsHeartFill, BsStar, BsStarFill } from 'react-icons/bs'
+import { BsStar, BsStarFill } from 'react-icons/bs'
 
 const Card = ({ name, username, id }) => {
   const { favState, favDispatch } = useContext(ContextGlobal)
