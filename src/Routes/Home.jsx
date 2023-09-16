@@ -3,13 +3,11 @@ import { ContextGlobal } from '../Components/utils/global.context'
 import Card from '../Components/Card'
 import CardSkeleton from '../Components/CardSkeleton'
 
-//Este componente debera ser estilado como "dark" o "light" dependiendo del theme del Context
-
 const Home = () => {
   const { dentistsState } = useContext(ContextGlobal)
   return (
     <>
-      <h1>Los Mejores Dentistas</h1>
+      <h1>Nuestros Especialistas</h1>
       <div className='card-grid'>
         {dentistsState.dentistsList.length === 0 ? (
           <>

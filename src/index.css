@@ -33,7 +33,7 @@ footer {
   position: absolute;
   bottom: 0;
   height: 104px;
-  background-color: #456b8d;
+  background-color: #005e64d5;
 }
 
 footer > img {
@@ -94,17 +94,9 @@ footer > img {
   transition: transform 0.3s ease-in-out;
 }
 
-.card:hover {
-  transform: scale(1.05);
-  border: 0.5px solid rgb(126, 124, 224);
-}
-.dark .card:hover {
-  transform: scale(1.05); 
-}
 .card-grid {
   display: flex;
   justify-content: center;
-  gap: 2rem;
   width: 90vw;
   height: auto;
   flex-wrap: wrap;
@@ -234,7 +226,7 @@ h1,h2,h3,h4,h5,h6,p {
   height: 21.6px;
 }
 header {
-  background-color: #5c8db8;
+  background-color: #005e64d5;
   display: flex;
   justify-content: center;
   position: sticky;
@@ -254,9 +246,6 @@ header .container {
 header h1 {
   text-align: center;
   margin: 0;
-}
-
-header h1 {
   color: rgb(200, 0, 0);
 }
 
